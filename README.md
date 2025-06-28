@@ -1,13 +1,13 @@
-# Gesture-Controlled TurtleBot (ROS 2)
+# Gesture-Recognition (ROS 2)
 
-Control a TurtleBot using real-time hand gestures with OpenCV + Mediapipe in ROS 2.
+This module performs real-time **hand gesture detection** using a webcam feed. It uses **MediaPipe's Hand Landmark Model** to extract 21 keypoints per hand and applies simple rule-based logic to classify gestures based on finger positions.
 
 ## Features
-- 🖐 Open palm → Stop
-- ✊ Fist → Move forward
-- ✌ Peace sign → Move backward
-- 👉 Thumb → Turn right
-- 👈 Index → Turn left
+- 🖐 Open palm 
+- ✊ Fist 
+- ✌ Peace sign 
+- 👉 Thumb 
+- 👈 Index 
 
 ## Run
 
